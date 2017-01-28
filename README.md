@@ -1,1 +1,1 @@
-"# SASS Starter" 
+# SASS Starter project
