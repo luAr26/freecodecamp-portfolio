@@ -9,6 +9,12 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Overpass+Mono:700" rel="stylesheet">
+        <!-- Font awesome -->
+        <link rel="stylesheet" href="css/libs/font-awesome.css">
         <link rel="stylesheet" href="css/app.css">
     </head>
     <body>
@@ -16,12 +22,124 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <!-- HEADER -->
+        <header id="header">
+          <nav>
+            <ul>
+              <li><a href="" class="brand">Raul's Portfolio</a></li>
+              <li><a href="#header">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#pens">Pens</a></li>
+              <li><a href="#github">Github</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="header-overlay">
+            <hgroup>
+              <h2>Hello, I'm Raul!</h2>
+              <h3>Looking to improve<span>_</span></h3>
+            </hgroup>
+            <ul class="social-media-links">
+              <li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
+              <li><a href="#"><i class="fa fa-github-alt"></i> Github</a></li>
+            </ul>
+          </div>
+        </header>
+        <!-- END HEADER -->
+
+        <!-- PROJECTS -->
+        <section id="projects">
+          <h2>_Projects</h2>
+          <div class="projects-container">
+            <!-- REPEAT PROJECT AS MANY TIMES AS YOU LIKE -->
+            <div class="project">
+              <div class="project-thumbnail">
+
+              </div>
+              <div class="project-details">
+                <h3>Super cool project</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe a earum similique expedita dolores.</p>
+                <button type="button">View details</button>
+                <button type="button">
+                  <span class="number-of-likes">18</span>
+                  <i class="fa fa-heart-o"></i>
+                </button>
+              </div>
+            </div> <!-- end .project -->
+          </div>
+        </section>
+        <!-- END PROJECTS -->
+
+        <!-- CODEPEN -->
+        <section id="pens">
+          <h2>_CodePen</h2>
+          <div class="pens-container">
+            <div class="pen">
+              <div class="pen-thumbnail">
+
+              </div>
+              <pen class="details">
+                <h3>App Showcase</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, sapiente?</p>
+                <div class="pen-metadata">
+                  <span class="pen-views">5182</span>
+                  <a href="#" class="pen-comments">
+                    <span class="number-of-comments">17</span> <i class="fa fa-comment-o"></i></a>
+                  <a href="#" class="pen-likes"><span class="number-of-likes">38</span> <i class="fa fa-heart-o"></i></a>
+                </div>
+              </pen>
+            </div>
+            <div class="pen">
+              <div class="pen-thumbnail">
+
+              </div>
+              <pen class="details">
+                <h3>App Showcase</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, sapiente?</p>
+                <div class="pen-metadata">
+                  <span class="pen-views">5182</span>
+                  <a href="#" class="pen-comments">
+                    <span class="number-of-comments">17</span> <i class="fa fa-comment-o"></i></a>
+                  <a href="#" class="pen-likes"><span class="number-of-likes">38</span> <i class="fa fa-heart-o"></i></a>
+                </div>
+              </pen>
+            </div>
+          </div>
+          <div class="more-pens">
+            <a href="#">View more</a>
+          </div>
+        </section>
+        <!-- END CODEPEN -->
+
+        <!-- GITHUB -->
+        <section id="github">
+          <h2>_Github</h2>
+          <ul class="github-projects">
+            <li><a href="#"><i class="fa fa-code"></i> SASS Starter</a></li>
+            <li><a href=""></a><i class="fa fa-cloud"></i> Weather Widget</li>
+          </ul>
+        </section>
+        <!-- END GITHUB -->
+
+        <!-- CONTACT -->
+        <section id="contact">
+          <h2>_Get in touch</h2>
+          <p>If you want to talk you can send me an e-mail. Looking forward to hearing from you.</p>
+          <a href="mailto:me@anydomainname.com">
+            <i class="fa envelope-o"></i> email.example@gmail.com
+          </a>
+        </section>
+        <!-- END CONTACT -->
+        <footer id="footer">
+          <p>&copy; 2017 RaulCosmin All rights reserved.</p>
+          <a href="" class="scroll-top">Scroll top <i class="fa fa-angle-up"></i></a>
+        </footer>
+
+
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
