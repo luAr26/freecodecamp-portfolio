@@ -1,16 +1,5 @@
-# SASS Starter project
+# FREECODECAMP PORTFOLIO
 
-### Install Bourbon
-Run `gem install bourbon` - this will install the ruby gem that allows you to use bourbon
+This is my portfolio page for [freecodecamp.com](https://www.freecodecamp.com/ "FreeCodeCamp").
 
-In your project folder run `bourbon install --path sass/0-plugins`
-
-### Install neat
-Run `gem install neat` - this will install the ruby gem that allows you to use neat
-
-`cd sass/0-plugins`
-
-`neat install`
-
-### Watch for file changes
-Run `sass --watch sass:css --style compressed`
+Check them out it's a great website! ;)
